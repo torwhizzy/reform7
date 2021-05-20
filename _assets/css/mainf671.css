@@ -204,9 +204,9 @@ a.btn.disabled, fieldset[disabled] a.btn { pointer-events: none; }
 
 .dark .media li a:hover, .dark .media li a.active, .dark .btn-default:hover, .dark .btn-default.active, .dark .rsvp a:hover, .dark .rsvp a.active { color: #c6ad90; border-color: #ffffff; background-color: #ffffff; }
 
-.dark .btn-primary { color: #ffffff; border-color: #ffffff; background-color: transparent; }
+.dark .btn-primary { color: #C6AD90; border-color: #C6AD90; background-color: transparent; }
 
-.dark .btn-primary:hover, .dark .btn-primary.active { color: #323234; background-color: #ffffff; border-color: #ffffff; }
+.dark .btn-primary:hover, .dark .btn-primary.active { color: #ffffff; background-color: #C6AD90; border-color: #ffffff; }
 
 .dark .btn-success { color: #ffffff; border-color: #ffffff; background-color: transparent; }
 
@@ -265,7 +265,7 @@ a.btn.disabled, fieldset[disabled] a.btn { pointer-events: none; }
 
 @media (min-width: 768px) { .share a span { font-size: 1.5rem; } }
 
-.div-embed { position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; overflow: hidden; background-repeat: no-repeat; background-position: center center; background-size: cover; }
+.div-embed { position: relative; padding-bottom: 56.25%; padding-top: 45.75%; height: 0; overflow: hidden; background-repeat: no-repeat; background-position: center center; background-size: cover; }
 
 .div-embed img { display: block; width: 100%; height: auto; }
 
@@ -568,7 +568,18 @@ i04 - Header
 
 @media (min-width: 768px) { #header .logo img { height: 40px; } }
 
-#header .toggles { text-align: right; margin-right: 15px; transition: .3s; }
+#header .toggles { text-align: right;
+   margin-right: 15px;
+    transition: .3s;
+    display: block;
+  }
+  @media (max-width: 768px){
+    #header .toggles { text-align: right;
+      margin-right: 15px;
+       transition: .3s;
+       display: block;
+     }
+  }
 
 @media (min-width: 768px) { #header .toggles { margin-left: 30px; } }
 
@@ -624,7 +635,9 @@ nav.main {
 
 body.show-nav nav.main { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 
-nav.main .nav-inner { position: relative; height: 100%; padding: 0 15px 0 30px; overflow: auto; }
+nav.main .nav-inner { position: relative;
+  
+ height: 100%; padding: 0 15px 0 30px; overflow: auto; }
 
 nav.main .nav-top { position: relative; min-height: 20px; transition: .3s; }
 
@@ -831,7 +844,7 @@ i07 - Sections
 /* goal section */
 .goal{
   width: 100%;
-  background: #323234f2;
+  background: #323234;
   position: relative;
   text-align: center;
   padding-top: 100px;
@@ -856,7 +869,7 @@ i07 - Sections
 }
 .goal-column{
   flex-basis: 31%;
-  background: #C6AD90;
+  background: #f0f0f0;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -908,8 +921,8 @@ h3{
  
 }
 .event-btn:hover{
-   border: 1px solid #fff;
-   color: #fff3f3;
+   border: 1px solid #323234;
+   color: #323234;
    background: transparent;
    transition: 1s;
 }
@@ -1181,6 +1194,7 @@ h3{
 i08 - Widgets
 
 =================================================*/
+
 .div-embed.play-sermon.loading {
    min-height: 0; 
    }
@@ -1226,7 +1240,16 @@ transform: translateY(-50%); transition: .2s;
 
 @media (min-width: 768px) { .media-display-full-left, .media-display-full-right { -webkit-box-align: center; align-items: center; } }
 
-.media-display-full-left .column, .media-display-full-right .column { position: relative; width: 100%; min-height: 1px; padding-right: 15px; padding-left: 15px; -webkit-box-flex: 0; flex: 0 0 100%; max-width: 100%; }
+.media-display-full-left .column, .media-display-full-right .column { 
+  position: relative; 
+  width: 100%; 
+  min-height: 1px; 
+  padding-right: 15px; 
+  padding-left: 15px; 
+  -webkit-box-flex: 0; 
+  flex: 0 0 100%; 
+  max-width: 100%; 
+  }
 
 @media (min-width: 768px) { 
   .media-display-full-left .column, .media-display-full-right .column {
@@ -1278,6 +1301,9 @@ transform: translateY(-50%); transition: .2s;
     padding: 2rem 0 0 0; 
     } 
     }
+
+
+
 
 .featured-columns article { 
   -webkit-transform: translate3d(0, 0, 0); 
