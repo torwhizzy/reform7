@@ -13,21 +13,14 @@
   <meta property="og:site_name" content="Reform-7" >
   <meta property="og:type" content="article" >
   <meta property="og:title" content="Reform-7" >
-  
   <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="msapplication-TileColor" content="#0a3a53">
+<meta name="msapplication-TileImage" content="/_assets/img/favicons/favicon-144.png?v=2">
 
 
 <link rel="canonical" href="index.html" />
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  "name": "Reformer",
-  "url": "https://reform-7.org"
-}
-</script>
 
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,600,600i,700,700i|Barlow+Semi+Condensed:400,400i,600,600i,700,700i|Lato:300,300i,400,400i,700,700i|Montserrat:300,300i,400,400i,700,700i" rel="stylesheet"> 
 <link rel="stylesheet" href="../_assets/fonts/icons/styledf19.css?t=20180427142120%20?>" />
@@ -38,8 +31,7 @@
 
 <link rel="icon" href="../_assets/img/logos/reform logo.jpg">
 <link rel="apple-touch-icon-precomposed" href="_assets/img/favicons/favicon-1525e1f.png?v=2">
-<meta name="msapplication-TileColor" content="#0a3a53">
-<meta name="msapplication-TileImage" content="/_assets/img/favicons/favicon-144.png?v=2">
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -50,7 +42,118 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager --></head>
 
 <style>
+  .contact-page-sec{ 
+    position: relative;
+    width: 100%; 
+    text-align: center; 
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-color: #f0f0f0; }
+  .contact-info {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact-info-icon {
+margin-bottom: 15px;
+}
+.contact-info-item {
+  background: #071c34;
+  padding: 30px 0px;
+}
+.contact-page-sec .contact-page-form h2 {
+  color: #071c34;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+  padding-left: 0;
+}  
+.contact-page-form.contact-form input {
+  margin-bottom: 5px;
+}  
+.contact-page-form.contact-form textarea {
+  height: 110px;
+}
+.contact-page-form.contact-form input[type="submit"] {
+  background: #071c34;
+  width: 150px;
+  border-color: #071c34;
+}
+.contact-info-icon i {
+  font-size: 48px;
+  color: #fda40b;
+}
+.contact-info-text p{margin-bottom:0px;}
+.contact-info-text h2 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-info-text span {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+}
 
+.contact-page-form input {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #f9f9f9;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.contact-page-form .message-input {
+display: inline-block;
+width: 100%;
+padding-left: 0;
+}
+.single-input-field textarea {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #f9f9f9;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+.single-input-fieldsbtn input[type="submit"] {
+  background: #676767 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 0;
+  text-transform: capitalize;
+  width: 150px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.single-input-fieldsbtn input[type="submit"]:hover{background:#c6ad90;transition: all 0.4s ease-in-out 0s;border-color:#c6ad90}
+.single-input-field  h4 {
+  color: #676767;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.contact-page-form {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.contact-page-map {
+  margin-top: 36px;
+}
+.contact-page-form form {
+    padding: 20px 15px 0;
+}
 </style>
 
 <body data-campus="">
