@@ -356,53 +356,85 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <header id="header" data-toggle="sticky-onscroll">
     <div class="header">
         <div class="logo">
-        <a href="../index.html" title="Reform-7"><img src="../_assets/img/logos/reform logo2.jpg" alt="" onerror="this.onerror=null; this.src='../_assets/img/logos/logo-icon.png'" /></a>
+        <a href="../index.html" title="reform-7"><img src="../_assets/img/logos/reform logo2.jpg" alt="" onerror="this.onerror=null; this.src='_assets/img/logos/logo-icon.png'" /></a>
           </div>
           <div class="toggles">
-            <a href="#" ><i class="icon icon-radio"></i>
-              <span class="text">
-              </span>
+            <div class="nav-item dropdown" style="display: inline-block; margin-right: 10px;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="icon icon-radio"> 
+            </i>
+              <span class="text"> </span>
             </a>
+            <div class="dropdown-menu radio-drop">
+              <a href="#" class="dropdown-item r-item">Get Radio App</a>
+              <a href="#" class="dropdown-item r-item">Listen Live</a>
+          </div>
+        </div>
+          
             <a href="#" class="navigation-toggle"><i class="icon icon-menu7"></i></a>
           </div>
       </div>
   </header><!--end #header-->
-  
-  
-  <nav class="main">
-    <div class="nav-inner">
-        <div class="nav-top">
-                    <a href="#" class="navigation-toggle"><i class="icon icon-close"></i></a>
-          </div>
-  <ul id="nav">
-    <li class="current" id="nav_home"><a href="../index.html">Home</a></li>
-    <li id="nav_about"><a href="about.html">About</a></li>
-    <li id="nav_about"><a href="#">languages</a>
-      <ul>
-        <li id="nav_about_who-we-are"><a href="#">French</a></li>
-        <li id="nav_about_pastordale"><a href="#">Spanish</a></li>
-        <li id="nav_about_pastordale"><a href="#">Ghana</a></li>
-      </ul>
-    </li>
-    
-    <li id="nav_events"><a href="event2.php">Events</a></li>
-    <li id="nav_events"><a href="#">Radio</a></li>
-    <li id="nav_messages"><a href="blog.html">Blog|Podcast</a></li>
-    <li id="nav_resources"><a href="project.html">Project</a></li>
-    <li id="nav_give"><a href="donate.html">Give</a></li>
-    <li><a href="contact.html">Contact us</a></li>
+
+
+
+<nav class="main">
+  <div class="nav-inner">
+      <div class="nav-top">
+                  <a href="#" class="navigation-toggle"><i class="icon icon-close"></i></a>
+        </div>
+<ul id="nav">
+  <li class="current" id="nav_home"><a href="../index.html">Home</a></li>
+  <li id="nav_about"><a href="about.html">About</a>
+  <ul>
+    <li><a href="#">About Reform</a></li>
+    <li><a href="#">Our Founder</a></li>
+    <li><a href="#">Contact</a> </li>
   </ul>
-    <div class="search">
-                      <form action="#" method="get" id="searchForm" ><fieldset>
-                 <input type="text" id="search_term" name="keywords" value="" placeholder="Search" class="clearClick" />
-                 <a id="search_go" href="#" class="icon icon-magnifier mcmsSearch"></a>
-  <input type="hidden" name="show_results" value="N%3B" />
-  
-              </fieldset>
-            </form>        
-          </div>
-      </div>
-  </nav>
+  </li>
+  <li id="nav_about"><a href="#">languages</a>
+    <ul>
+      <li id="nav_about_who-we-are"><a href="#">French</a></li>
+      <li id="nav_about_pastordale"><a href="#">Swahili</a></li>
+    </ul>
+  </li>
+  <div class="nav-item dropdown">
+    <a href="event2.html"  class="nav-link dropdown-toggle" data-toggle="dropdown">Event</a>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item ">Reform Training</a>
+        <a href="#" class="dropdown-item">Conferences</a>
+        <a href="#" class="dropdown-item">Itinery</a>
+    </div>
+</div>
+  <li id="nav_events"><a href="#">Radio</a>
+    <ul>
+      <li>Get App</li>
+      <li>Listen Live</li>
+    </ul>
+  </li>
+  <div class="nav-item dropdown">
+    <a href="blog.html"  class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item ">Word Of Faith</a>
+        <a href="#" class="dropdown-item">Apostolic + Prophetic</a>
+        <a href="#" class="dropdown-item">Intercession</a>
+    </div>
+</div>
+  <li id="nav_resources"><a href="project.html">Project</a></li>
+  <li id="nav_give"><a href="donate.html">Donate</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+</ul>
+  <div class="search">
+                    <form action="#" method="get" id="searchForm" ><fieldset>
+               <input type="text" id="search_term" name="keywords" value="" placeholder="Search" class="clearClick" />
+               <a id="search_go" href="#" class="icon icon-magnifier mcmsSearch"></a>
+<input type="hidden" name="show_results" value="N%3B" />
+
+            </fieldset>
+          </form>        
+        </div>
+    </div>
+</nav>
+
 
 <!--start #billboard-->
 <div id="billboard" class="dark hasbillboard" style="background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(../_assets/img/layouts/background.jpg);min-height: 50vh; width: 100%;">
