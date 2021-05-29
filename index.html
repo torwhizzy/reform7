@@ -67,6 +67,187 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   max-width: 100%;
  max-height: 100%;
 }
+
+
+    figure.snip0078 {
+    font-family: 'Oswald', Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    float: right;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 350px;
+    max-height: 310px;
+    width: 100%;
+    text-align: center;
+}
+
+figure.snip0078 * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+}
+
+figure.snip0078 img {
+    opacity: 1;
+    max-width: 100%;
+    border: 10px solid #000000;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+figure.snip0078 figcaption {
+    bottom: 0;
+    width: 60%;
+    right: 0;
+    position: absolute;
+    background: #000000;
+    padding: 12px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    box-shadow: 0 0px 10px -10px #000000;
+}
+
+figure.snip0078 figcaption h2,
+figure.snip0078 figcaption p {
+    margin: 0;
+    color: #ffffff;
+}
+
+figure.snip0078 figcaption h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+figure.snip0078 figcaption h2 span {
+    font-weight: 800;
+}
+
+figure.snip0078 figcaption p {
+    font-size: 0.9em;
+    font-weight: 500;
+    opacity: 0.65;
+}
+
+figure.snip0078 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+figure.snip0078.blue figcaption {
+    background: #315e95;
+}
+
+figure.snip0078.blue img {
+    border: 10px solid #315e95;
+}
+
+figure.snip0078.red figcaption {
+    background: #81261d;
+}
+
+figure.snip0078.red img {
+    border: 10px solid #81261d;
+}
+
+figure.snip0078.yellow figcaption {
+    background: #a85913;
+}
+
+figure.snip0078.yellow img {
+    border: 10px solid #a85913;
+}
+
+figure.snip0078:hover figcaption,
+figure.snip0078.hover figcaption {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 15px -15px #000000;
+}
+
+figure.snip0078:hover.blue img,
+figure.snip0078.hover.blue img {
+    border: 10px solid #2980b9;
+}
+
+figure.snip0078:hover.red img,
+figure.snip0078.hover.red img {
+    border: 10px solid #c0392b;
+}
+
+figure.snip0078:hover.yellow img,
+figure.snip0078.hover.yellow img {
+    border: 10px solid #e67e22;
+}
+
+
+.snip1374 {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 240px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+.snip1374 img {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.snip1374:hover img,
+.snip1374.hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.info-text{
+  top: 50%;
+}
+.info-text p {
+    display: table-cell;
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    padding: 16% 4%;
+    vertical-align: middle;
+}
+.about-text p{
+  display: table-cell;
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4% 4%;
+    vertical-align: middle;
+}
+.info-text .right {
+  float: right;
+}
+
+
 </style>
 </head>
 
@@ -79,10 +260,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <a href="../index.html" title="reform-7"><img src="_assets/img/logos/reform logo2.jpg" alt="" onerror="this.onerror=null; this.src='_assets/img/logos/logo-icon.png'" /></a>
           </div>
           <div class="toggles">
-            <a href="#" ><i class="icon icon-radio"></i>
-              <span class="text">
-              </span>
+            <div class="nav-item dropdown" style="display: inline-block; margin-right: 10px;">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="icon icon-radio"> 
+            </i>
+              <span class="text"> </span>
             </a>
+            <div class="dropdown-menu radio-drop">
+              <a href="#" class="dropdown-item r-item">Get Radio App</a>
+              <a href="#" class="dropdown-item r-item">Listen Live</a>
+          </div>
+        </div>
+          
             <a href="#" class="navigation-toggle"><i class="icon icon-menu7"></i></a>
           </div>
       </div>
@@ -97,17 +285,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 <ul id="nav">
   <li class="current" id="nav_home"><a href="index.html">Home</a></li>
-  <li id="nav_about"><a href="other-pages/about.html">About</a></li>
+  <li id="nav_about"><a href="other-pages/about.html">About</a>
+  <ul>
+    <li><a href="#">About Reform</a></li>
+    <li><a href="#">Our Founder</a></li>
+    <li><a href="#">Contact</a> </li>
+  </ul>
+  </li>
   <li id="nav_about"><a href="#">languages</a>
     <ul>
       <li id="nav_about_who-we-are"><a href="#">French</a></li>
-      <li id="nav_about_pastordale"><a href="#">Spanish</a></li>
-      <li id="nav_about_pastordale"><a href="#">Ghana</a></li>
+      <li id="nav_about_pastordale"><a href="#">Swahili</a></li>
     </ul>
   </li>
-  <li id="nav_events"><a href="other-pages/event2.html">Events</a></li>
-  <li id="nav_events"><a href="#">Radio</a></li>
-  <li id="nav_messages"><a href="other-pages/blog.html">Blog|Podcast</a></li>
+  <div class="nav-item dropdown">
+    <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Event</a>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item ">Reform Training</a>
+        <a href="#" class="dropdown-item">Conferences</a>
+        <a href="#" class="dropdown-item">Itinery</a>
+    </div>
+</div>
+  <li id="nav_events"><a href="#">Radio</a>
+    <ul>
+      <li>Get App</li>
+      <li>Listen Live</li>
+    </ul>
+  </li>
+  <div class="nav-item dropdown">
+    <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item ">Word Of Faith</a>
+        <a href="#" class="dropdown-item">Apostolic + Prophetic</a>
+        <a href="#" class="dropdown-item">Intercession</a>
+    </div>
+</div>
   <li id="nav_resources"><a href="other-pages/project.html">Project</a></li>
   <li id="nav_give"><a href="other-pages/donate.html">Donate</a></li>
   <li><a href="other-pages/contact.html">Contact us</a></li>
@@ -159,9 +371,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="container">
     <div class="content-text">
       <h1 style="text-align: center; color: #323234;">
-        <strong>Join Our sunday Services</strong></h1>
-<p></p>
-<p style="text-align: center; margin-bottom: 0px; margin-top: 0px;"><a class="btn btn-primary btn-lg btn-block" href="weekend/index.html" type="link">Join now</a></p></div></div></div><!--end content section--></section><!--end content section-->
+        <strong>Who we are</strong></h1>
+        <div class="about-text"><p style="color: #323234;">We are followers of Jesus Christ, anointed and consumed with the passion of the Holy Spirit in love and grace, to see Africa become the people God has purposed her to be, by raising reformers that are passionate, focused, and very courageous to influence society everyday by walking in their God-driven purposes outside (and within) the four walls of the church. We are not religious; rather, through our intimate relationship with God, we are able to influence our society with the same influence we receive from God. We are rebuilders, restorers… REFORMERS! 
+          <a href="#" style="text-transform: uppercase; color: #C6AD90; font-size: 24px;">Learn more.</a>
+        </p>
+      </div>
+
+<p style="text-align: center; margin-bottom: 0px; margin-top: 0px;">
+  </p>
+</div>
+</div>
+</div><!--end content section-->
+</section><!--end content section-->
 
 <section id="csec-home-latest-message" class="content-section">
   <div class="content-section-inner py-8 py-md-11" >
@@ -169,20 +390,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="content-text">
         <div>
       <div class="widget media-display-full-right">
-        <div class="column hasinfo">
-          <div class="info"><h4 class="mb-4">Latest Message</h4><h5><a href="message/4-grow-in-grace-part-1.html">Title of the message here</a></h5><p class="summary mb-4">A short discription of the message will be displayed here.</p><p class="more mb-0">
-              <a href="#" class="btn event-btn ">More Messages</a>
-              <a href="#" class="btn event-btn">Watch Series</a>
-            </p>
-          </div>
-          </div>
-
         <div class="column hasmedia">
           <div class="div-embed">
           <iframe src="https://player.vimeo.com/video/547007367?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="#4 Grow in Grace">
           </iframe>
         </div>
       </div>
+        <div class="column hasinfo">
+          <div class="info"><h4 class="mb-4" style="text-transform: uppercase;">Love And Grace</h4><p class="summary mb-4">A short discription of the message will be displayed here.</p>
+            <p class="more mb-0">
+              <a href="#" class="btn event-btn">Watch Other Series</a>
+            </p>
+          </div>
+          </div>
+
+       
      
       </div>
       </div>
@@ -190,96 +412,123 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
   </div><!--end content section-->
 </section><!--end content section-->
-
-<section id="csec-home-join-us-this-weekend" class="content-section">
-  <div class="content-section-inner py-8 py-md-11 dark" style=" background-color: #323234;">
-  <div class="container">
-    <div class="content-text">
-      <h1 style="text-align: center; color: #fff;">
-        <strong>Reform-7 ongoing project- first Edition</strong></h1>
-<p></p>
-<p style="text-align: center; margin-bottom: 0px; margin-top: 0px;"><a class="btn btn-primary btn-lg btn-block" href="#" type="link">view project</a></p></div></div>
-</div><!--end content section-->
-</section><!--end content section-->
-
-
 <section id="csec-home-serving-opportunities" class="content-section">
-<div class="content-section-inner py-8 py-md-11" style=" background-color: #f0f0f0;">
-<div class="container">
-<div class="widget media-display-full-left">
-  <div class="column hasmedia">
-    <div class="div-embed" style="background-image: url(_assets/images/Chains\ Broken.jpg);">
-    </div>
-</div>
-  <div class="column hasinfo">
-    <div class="info">
-<h2 style="margin-bottom: 10px; font-size: 20px; font-weight: 500 !important;">Share Your Tastemony</h2>
-<p style="margin-bottom: 10px;"> Let us know what God has done for you</p>
-<p><a class="btn btn-default" href="outreach-serve-opportunities/index.html" type="link">Let us know</a></p>
-</div>
-</div>
-</div>
-</div>
-</div><!--end content section-->
-</section><!--end content section-->
+  <div class="content-section-inner py-8 py-md-11" style=" background-color: #323234;">
+  <div class="container">
+    <h1 style="text-align: center; color: #fff;">
+      <strong>Our project And mission</strong></h1>
+      <h2 style="color: #fff; text-align: center;">– Let reform Africa –</h2>
+  <div class="widget media-display-full-left">
+    
+    <div class="column hasmedia">
+      <figure class="snip1374"><a href="#"><img src="https://cdn.shopify.com/s/files/1/2204/2817/files/featurette-10-1000x1000.jpg?98122347912348223" alt="sample66" /></a></figure>
+  </div>
+    <div class="column hasinfo">
+      <div class="info">
+       <div class="info-text"><p>This project is geared torwards enhancing and equiping the african citizens. Our missionis to provide necessary amunities during the course of this project to help the drive.</p></div>
+  
+  <p><a class="btn btn-default" href="#" type="link">Join Us</a></p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div><!--end content section-->
+  </section><!--end content section-->
 
-<!-- ----- Event section----- -->
+<!-- ----- Blog section----- -->
 <section class="event">
-  <h1>Our Latest Activities</h1>
-  <p>Don't miss out. Follow all our latest activities below</p>
+  <h1>Our Latest Blog Post</h1>
+  <p>Don't miss out. Get more from our blog post</p>
   <div class="row">
   <div class="event-col">
       <img src="_assets/images/Crowd.jpg" alt="">
-          <h3>Holy Ghost service</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis minima facere aperiam ab, molestias consectetur quae nihil! Deserunt repellat illum ipsa iure maxime recusandae dicta deleniti, aut alias culpa.maxime recusandae dicta deleniti</p>
-          <a href="" class="event-btn">view more...</a>
+          <h3>The sound, wind, fire, and water of the Holy Spirit.</h3>
+          <p>The power of the Holy Spirit is here among us. The bible has assured us that he will not leave us comfortless, that he will send the Holy Spirit to dwell among us. </p>
+          <a href="" class="event-btn">Learn more...</a>
       </div>
   <div class="event-col">
       <img src="_assets/images/crusade.jpg" alt="" class="a-img">
-          <h3>End of the month crusade</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat sequi est cum optio facilis deleniti suscipit labore molestiae at repellat. Cumque nam esse perferendis numquam, delectus et nihil pariatur consectetur.</p>
-          <a href="" class="event-btn">view more...</a>
+          <h3>Word of Faith</h3>
+          <p>Hear the voice of the Spirit behind each Word of Faith you receive and hold unto it, as well as inquire of the Lord first, then move as the Spirit directs you.</p>
+          <a href="" class="event-btn">Learn more...</a>
       </div>
   <div class="event-col">
       <img src="_assets/images/covenant.jpg" alt="">
-          <h3>June 12, Covenant Service</h3>
+          <h3>Apostolic + Prophetic:</h3>
           <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus hic eaque, veniam, ipsa id architecto, quaerat ipsum eveniet cupiditate quisquam voluptatibus porro sequi provident sed quis nostrum repudiandae dolores non.
+            No prophetic or apostolic word (or work) should replace your time with God to hear Him for yourself. Take that word and ‘sit’ with Him to hear His voice behind the word.
       </p>
-      <a href="" class="event-btn">view more...</a>
+      <a href="" class="event-btn">Learn More...</a>
       </div>
   </div>
 </section>
 
 
+<section id="csec-home-serving-opportunities" class="content-section">
+  <div class="content-section-inner py-8 py-md-11" style=" background-color: #f0f0f0;">
+  <div class="container">
+    <h1 style="text-align: center; font-size: 5rem; font-weight: 700; margin-bottom: 15px;">Video And Podcast</h1>
+  <div class="widget media-display-full-left">
+    <div class="column hasmedia">
+      <div class="div-embed" style="background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),url(_assets/images/pillar\ background.jpg); width: 100%;">
+        <!-- <video id="billboardvideo" autoplay playsinline loop muted><source src="https://media.istockphoto.com/videos/legs-of-a-business-man-wearing-black-shoes-and-business-suit-walking-video-id1137526383"></video> --> 
+        <p style="text-align: center; color: #323234;"><a class="btn btn-default" href="#" type="link">Watch this video</a></p>
+      </div>
+  </div>
+    <div class="column hasinfo">
+      <div class="info">
+  <p style="margin-bottom: 10px;"> We bring hope to the hopeless. Joy to the </p>
+  <p><a class="btn btn-default" href="#" type="link">Listen To Podcast</a></p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div><!--end content section-->
+  </section><!--end content section-->
+
+
+
 <section id="csec-home-prayer-support-and-follow-pastor-dale" class="content-section">
   <div class="content-section-inner py-8 py-md-11" >
     <div class="container-fluid">
+      <h1 style="font-size: 36px; padding: 4% 0; margin: 0; text-align: center; font-weight: 600;color: #323234;">MEET THE FOUNDERS</h1>
       <div class="content-text">
-        <div>
+         
           <div class='widget featured-columns no-sec-padding row no-gutters align-items-center' style = "width:100%; margin-left:0;">
             <article class='col-12 col-md dark'>
-        <a href="#">
+       
           <div class='image' style='background-color: #323234;'></div>
-          <div class='info'>
           <div class='inner'>
-  <h3>Prayer Support</h3>
-  <img src="_assets/images/Prayerhand - kids.jpg" alt="" class="fit">
-  <p>Submit a prayer below, our team would love to pray for you!</p>
-
+            <h3>DR. DRAY</h3>
+            <img src="_assets/images/image2.jpg" alt="" >
+            
+          
+          </div>
+          <div class='info about-text'>
+            
+    <p>
+      In 2000 when the Holy Spirit told me to become a Microsoft Certified Solution Developer, little did I know that developing practical solutions by the Holy Spirit would mark my journey with God since then. The journey has been lined with Word of Faith, the prophetic, apostolic and intercession founded on strong intimate relationship with God as my Father and best Friend. My success in life is founded on spending time with God, listening to what He has to say about everything and anything, and just saying ‘yes’.
+      
+     <br><br>
+        In 2019, God told me in a dream that the reformation of Africa is now, and as He spoke these words, each letter (like code) vibrated into me. It is humbling to be part of God’s army to bring reformation tsunami to Africa as He has purposed. My passion is to awaken this generation of Africans to the God who loves us so much, has the practical solutions and answers to every question, problem, issue or challenge we face, and is ready to infuse us with grace to implement those solutions and answers in every sphere of the society He has called us to outside (and within) the four walls of the church.
+      </p> 
+  
 </div>
-  <p class='more'><span class='btn btn-primary'>Share Your Prayer</span></p>
-</div>
-</a>
+<p class='more' style="text-align: center;"><span class='btn btn-primary'>Share Your Prayer</span></p>
 </article>
-<article class='col-12 col-md dark'>
-  <a href='https://www.instagram.com/torwhizzy/' target='_blank'><div class='image' style='background-color: #323234;'></div><div class='info'><div class='inner'><h3>Follow DR. DRAY</h3>
-    <img src="_assets/images/Prayerhand - kids.jpg" alt="" class="fit">
-    <p>In these uncertain times, get daily biblical encouragement!</p></div><p class='more'><span class='btn btn-primary'>Follow On Instagram</span></p></div></a></article></div></div>
+<!-- <article class='col-12 col-md dark'>
+  <div class='image' style='background-color: #323234;'></div><div class='info'><div class='inner'>
+    </div>
+    <p class='more'>
+      <span class='btn btn-primary'><a href='https://www.instagram.com/torwhizzy/' target='_blank'>Follow On Instagram</a></span></p></div></article> -->
+    
+    </div>
 </div>
 </div>
 </div><!--end content section-->
 </section><!--end content section-->
+
+
 <section id="csec-home-ways-to-give" class="content-section"><div class="content-section-inner py-8 py-md-11" ><div class="container"><div class="content-text"><h4 style="text-align: center;">Your giving helps</h4>
 <h2 style="text-align: center;">Make an eternal impact</h2>
 <p></p>
@@ -434,10 +683,12 @@ var addthis_share = {
 
   gtag('config', 'UA-16815301-2');
 </script>
+
+
 <!-- End Google Search Console Code -->
 
 <!-- Start Facebook Pixel Code -->
-<!-- <script>
+<!-- <script>,,,,,
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
